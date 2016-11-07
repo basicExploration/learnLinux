@@ -8,3 +8,21 @@
 echo hello world\!
 // hello world !
 ```
+### 2查看环境变量
+使用 cat /proc/$pid/environ
+>这个$pid可以使用 pgrep +进程名字获取
+
+```
+pgrep setting
+// 10248
+cat /proc/10248/environ
+//环境变量，有一大堆！
+
+```
+>返回值是以name=value这种形式来显示并且分隔符是null,那么如果想更换就可以使用tr命令， 例如
+
+```
+cat /proc/10248/environ |tr '\0' '\n'
+```
+结果就是以换行进行输出
+![this is a picture](./picture/picture1.png)
