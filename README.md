@@ -1,28 +1,10 @@
-# linux 的一些技术总结（详细的不说了，你们可以自己去看书，我只写大概的东西）
-
-#### 1输入
-使用echo，不使用‘’或者“”，只要记得如果使用特殊符号的时候使用\即可，
->如果想了解详细的例如使用‘’，和使用“”，请自行查阅资料
-
-```
-echo hello world\!
-// hello world !
-```
-### 2查看环境变量
-使用 cat /proc/$pid/environ
->这个$pid可以使用 pgrep +进程名字获取
-
-```
-pgrep setting
-// 10248
-cat /proc/10248/environ
-//环境变量，有一大堆！
-
-```
->返回值是以name=value这种形式来显示并且分隔符是null,那么如果想更换就可以使用tr命令， 例如
-
-```
-cat /proc/10248/environ |tr '\0' '\n'
-```
-结果就是以换行进行输出
-![this is a picture](./picture/picture1.png)
+# knowLinux
+> 主要说明的是 **shell script**
+- 开发linux 也就是开发linux**本身**。
+- 平常我们所说的**熟练运用linux**其实就是运用的shell scirpt。本项目主要说这个，但是会稍微深入一些关于linux本身的东西。
+-  本项目的[doc](./doc) 
+-  本项目中的案例主要是在[shell](./shell)中
+## 给我捐款
+1.  ![d](https://github.com/ThomasHuke/donate/blob/master/qq.jpg)
+2.  ![d](https://github.com/ThomasHuke/donate/blob/master/we-chat.jpg)
+3.  ![d](https://github.com/ThomasHuke/donate/blob/master/zhi-fu-bao.jpg)
