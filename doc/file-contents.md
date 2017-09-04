@@ -21,4 +21,10 @@
     - 通配符的关键符号的一些具体用法：<br><br>![p](../picture/tong-1.png)
 
     - 一些经典案例：<br><br>![p](../picture/tong-e.png)
-    
+- ## mkdir
+
+    - 基本用法：`mkdir file1 file2 file3...`可以同时创建多个文件
+
+- ## cp
+
+    - 基本用法：
