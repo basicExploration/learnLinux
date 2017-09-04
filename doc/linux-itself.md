@@ -24,4 +24,18 @@
 - ls常用命令集锦：
     ![pic](../picture/2017-9-4.png)
     > 由图可以看出来长选项几乎都有可以对应的短选项，使用的时候要注意如果有短选项就使用短的就好，没有在使用长选项 （英语：opinions）
+---
+## file功能
+- file命令返回文件类型
+- `file fileName`
+- 一个简单的显示举例
+    ```bash
+    file README.md
+
+    // UTF-8 Unicode text
+    ```
+---
+## less命令
 - 
+---
+## 软硬链接
