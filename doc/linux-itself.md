@@ -62,7 +62,9 @@
 
     //为了明显我刻意单列出来
     ```
-- less命令：![p](../picture/2017-9-4-1.png)
+- less命令：
+
+    ![p](../picture/2017-9-4-1.png)
 
 - 关于Linux或者说类unix中一些常用的路径到总结，大部分是如此，但是不排除有特殊情况：<br><br>![d](../picture/long.gif)
 
