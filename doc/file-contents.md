@@ -35,4 +35,26 @@
 
     - 移动或者是重命名文件
 
-    - 
+    - opinions:<br><br>![p](../picture/mv.png)
+
+    - 用法案例：<br><br>![](../picture/mv-1.png)
+
+- ## `rm`
+
+    - rm含义是：删除文件或者目录
+
+    - opinions<br><br>![](../picture/rm.png)
+
+    - example:<br><br>![](../picture/rm-1.png)
+
+- ## `rmdir`
+    - 删除文件夹
+    - opinions:
+        - `-p`也就是删除输入路径的所有内容
+        ```bash
+        rmdir -p /s/ss
+        ```
+        - 这样的结果就是ss和s都没有了也就是
+    - 删除文件和文件内所有内容不妨可以这么做`rmdir ./example/* `然后在`rmdir ./example`这样就没问题了不存在文件夹是空的啊或者是文件夹不是空的啊文件夹不是文件啊这种错误了 
+
+- ## 
