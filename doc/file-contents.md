@@ -27,4 +27,12 @@
 
 - ## cp
 
-    - 基本用法：
+    - 基本用法：<br><br>![p](../picture/cp-opinios.png)
+
+    - 用法案例：<br><br>![p](../picture/cp-example.png)
+
+- ## mv
+
+    - 移动或者是重命名文件
+
+    - 
