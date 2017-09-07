@@ -91,6 +91,8 @@
 
 - `ln ./app.jpg fdfdf.jpg`
 
-- 第二个很明显前后都是文件.jpg第一很明显是文件夹。 
+- 第二个很明显前后都是文件.jpg第一很明显是文件夹。
+
+- 测试gif:<br><br>![picture1](../picture/ln-1.gif)<br><br>![picture2](../picture/ln-2.gif) 
 
 
