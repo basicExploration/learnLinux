@@ -6,4 +6,5 @@
 - [跳转](./jump.md)
 - [探究Linux本身](./linux-itself.md)
 - [文件和目录等操作命令](./file-contents.md)
+- [操作工具](./tool.md)
 - [macos 下无法使用的命令](./basicOnlyLinux.md)
