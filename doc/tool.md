@@ -56,4 +56,51 @@
 
     - 有些命令可以直接使用`commond --help`来使用不过并不是所有的命令都有要注意了。
 
+- ## man
+
+    - man显示某个程序的手册，可以理解为type的加强版。
+
+    - man显示的某个命令的全部信息，信息非常大非常全，但是不能作为教材，只能作为字典。如果忘记了某个程序的某个参数
+
+    ```bash
+    man cd
+    # 就会出现一大堆的解释文段。
+    ```
+    - `man commond file`其中这个file是匹配文件，它会找到第一个匹配的地方。
+
+    
+- ## appropos
+
+    - 类似于搜索引擎。进行关键字的搜索
+
+- ## whatis
+    - 程序显示匹配特定关键字的手册页的名字和一行命令说明
+- ## README
+
+    - gzip 软件包包括一个特殊的 less 版本，叫做 zless，zless 可以显示由 gzip 压缩的文本文件的内容
+
+    - 在/usr/share/doc中通常有文件安装的readme
+
+- ## alias
+
+    - 创建命令的别名
+    ```bash
+    alias th='cd ~/Desktop; ls; cd ./code'
+    # 这样我们发现就设置了一个快捷方式
+    ```
+    - 所以alias设置别名其实就是设置快捷方式，并且要记得两点：
+        - 使用''
+        - shell中如果不是语意问题不要设置空格
+        ```bash
+        echo ""#此时空格需要因为是语义问题
+        alias=''#此时不要空格，因为不存在语义问题，如果有空格报错。
+        ```
+
+        ```bash
+        thomasdeMacBook-Air:code thomashuke$ type th
+
+        # 查看语句看到详细的说明内容在上面。
+        th is aliased to `cd ~/Desktop; ls; cd ./code'
+        ```
+
 ## [目录](./summary.md)
