@@ -69,7 +69,7 @@
     - `man commond file`其中这个file是匹配文件，它会找到第一个匹配的地方。
 
     
-- ## appropos
+- ## apropos
 
     - 类似于搜索引擎。进行关键字的搜索
 
@@ -102,5 +102,8 @@
         # 查看语句看到详细的说明内容在上面。
         th is aliased to `cd ~/Desktop; ls; cd ./code'
         ```
+- ## unalias
+    - 我想你会知道它的意思的。😄
 
+    - `unalias th`删除就好了。
 ## [目录](./summary.md)
