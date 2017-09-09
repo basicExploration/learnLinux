@@ -5,15 +5,15 @@
 - ## 这些命令有
     - type显示某个命令的用法
 
-    - which显示某个文件的安装位置
+    - which显示某个文件的安装位置
 
-    - apropos显示比较合理的后续的命令猜测
+    - apropos显示比较合理的后续的命令猜测
 
-    - info显示info命令
+    - info显示info命令
 
     - whatis显示一个命令的简单简洁
 
-    - alias创建命令的别名
+    - alias创建命令的别名
 - ## type
 
     - 用法：`type command`会显示出来某个命令的具体类型。
@@ -26,7 +26,7 @@
 
     - which含义就是显示某个文件所在的位置
 
-    - 用法：`which somefile`
+    - 用法：`which somefile`
 
     - which不对别名起作用
 
@@ -54,7 +54,7 @@
     ```
     - 注意表示法：出现在命令语法说明中的方括号，表示可选的项目。一个竖杠字符 表示互斥选项。后面的dir表示可能出现的选项例如一个路径等等。
 
-    - 有些命令可以直接使用`commond --help`来使用不过并不是所有的命令都有要注意了。
+    - 有些命令可以直接使用`commond --help`来使用不过并不是所有的命令都有要注意了。
 
 - ## man
 
@@ -79,7 +79,7 @@
 
     - gzip 软件包包括一个特殊的 less 版本，叫做 zless，zless 可以显示由 gzip 压缩的文本文件的内容
 
-    - 在/usr/share/doc中通常有文件安装的readme
+    - 在/usr/share/doc中通常有文件安装的readme
 
 - ## alias
 
@@ -92,14 +92,14 @@
         - 使用''
         - shell中如果不是语意问题不要设置空格
         ```bash
-        echo ""#此时空格需要因为是语义问题
+        echo ""#此时空格需要因为是语义问题
         alias=''#此时不要空格，因为不存在语义问题，如果有空格报错。
         ```
 
         ```bash
         thomasdeMacBook-Air:code thomashuke$ type th
 
-        # 查看语句看到详细的说明内容在上面。
+        # 查看语句看到详细的说明内容在上面。
         th is aliased to `cd ~/Desktop; ls; cd ./code'
         ```
 - ## unalias
