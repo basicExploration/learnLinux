@@ -12,4 +12,4 @@
 
 ## 给我捐款
 
-![p](https:github.com/ThomasHuke/donate/blob/master/things.png)
+![picture](https://github.com/ThomasHuke/donate/blob/master/things.png)
