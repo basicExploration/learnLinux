@@ -33,6 +33,7 @@ Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.0SzayS1IH2/Render
 TERM_PROGRAM_VERSION=ddddddddd
 TERM_SESSION_ID=ddddddddd
 USER=function
+
 SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.0dnXEPu6LM/Listeners
 __CF_USER_TEXT_ENCODING=0x1F5fdfx19:0x34
 PATH=/usr/local/bin:/usr/bin:/fdfn:/sbin
