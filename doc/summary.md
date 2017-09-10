@@ -8,5 +8,5 @@
 - [文件和目录等操作命令](./file-contents.md)
 - [操作工具](./tool.md)
 - [重定向](./redirection.md)
-- [linux的神奇魔法](./magic.md)
+- [linux的神奇魔法](./echo.md)
 - [macos 下无法使用的命令](./basicOnlyLinux.md)
