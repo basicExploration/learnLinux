@@ -11,7 +11,12 @@
 - [echo](./echo.md)
 - [键盘快捷键](./keyBord.md)
 - [macos 下无法使用的命令](./basicOnlyLinux.md)
-
+---
+---
+---
+---
+---
+**当你学完了这些基础部分的知识后请移步进阶部分的 >>>>>>>>>>>>> *[目录](./plus/summary.md)***
 ### 参考资料
 本项目开源，向这些开源项目致敬。
 - https://www.linux.org/
