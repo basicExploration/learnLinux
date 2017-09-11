@@ -9,4 +9,11 @@
 - [操作工具](./tool.md)
 - [重定向](./redirection.md)
 - [echo](./echo.md)
+- [键盘快捷键](./keyBord.md)
 - [macos 下无法使用的命令](./basicOnlyLinux.md)
+
+### 参考资料
+本项目开源，向这些开源项目致敬。
+- https://www.linux.org/
+- http://billie66.github.io/
+- http://man.linuxde.net/set
