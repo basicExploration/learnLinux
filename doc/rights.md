@@ -13,7 +13,7 @@
 
 - chown – 更改文件所有者
 
-- chgrp – 更改文件组所有权
+- chgrp – 更改文件组所有权（类似chmod 使用chomd就OK了）
 
 - passwd – 更改用户密码
 ## `id`
@@ -158,7 +158,14 @@ chown bod: reddd.md
 
 ```
 也就是说user 和 group并不是非要都有的，你可以只有一个。
+## passwd
 
+```bash
+passwd user
+```
+ 用法就是这样。
+
+ > 另外关于权限的最常见的就是chmod和umask所以说这两个学好还是比较重要的，至于更多的命令，看心情。心情好了，我以后在这个文件中可能会多写几个命令。但是估计我通常使用chmod就够了。
 
 
 
