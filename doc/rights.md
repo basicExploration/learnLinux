@@ -122,9 +122,43 @@ ls -l README.md
 1. chmod +x 等价 chmod a+x
 2. chmod u+rwx 单单给用户添加模式
 3. chmod o-rw 删除访客的读写模式
-chomd o=rw 给访客赋予rw之前的之前访客的所有模式统统淘汰。
+4. chomd o=rw 给访客赋予rw之前的之前访客的所有模式统统淘汰。
 
 第三点跟八进制是一样的，其实八进制就相当于=模式，并且我认为八进制更好玩，不用管什么添加还是减少还是赋值，直接给数字，就OK了，例如600 666 777多爽
+## umask
+
+设置默认权限。（等我好好看看再更新。。。）
+- setuid 位（八进制4000)。当应用到一个可执行文件时，它把有效用户 ID 从真正的用户（实际运行程序的用户）设置成程序所有者的 ID
+
+- setgid 位（八进制2000），这个相似于 setuid 位，把有效用户组 ID 从真正的 用户组 ID 更改为文件所有者的组 ID
+
+- setgid 位（八进制2000），这个相似于 setuid 位，把有效用户组 ID 从真正的 用户组 ID 更改为文件所有者的组 ID
+
+也就是说其实权限分为普通型和特殊型上面这三个是特殊权限。
+## su 和 sudo
+更改权限。
+- su -l user 更改用户，通常省略的话就是超级用户。
+
+- su -c 'command' 仅仅引号里的命令执行超级用户。
+
+准确来说sudo也是实现了超级用户，只不过，它并没有开启新的shell只是让普通用户获得了超级用户的权限罢了，日常生活中我们也是经常使用sudo，系统不会让我们使用su
+## chown
+
+改变文件的user和group。
+~~~bash
+chown user:group fileName
+~~~
+举例子：
+```bash
+chown bob:coastroad README.md
+
+chown :coast Readme.MD
+
+chown bod: reddd.md
+
+```
+也就是说user 和 group并不是非要都有的，你可以只有一个。
+
 
 
 
