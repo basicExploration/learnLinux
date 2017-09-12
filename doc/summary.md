@@ -10,6 +10,7 @@
 - [重定向](./redirection.md)
 - [echo](./echo.md)
 - [键盘快捷键](./keyBord.md)
+- [权限](./rights.md)
 - [macos 下无法使用的命令](./basicOnlyLinux.md)
 ---
 ---
