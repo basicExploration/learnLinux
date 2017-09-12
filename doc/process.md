@@ -185,9 +185,7 @@ fg 命令之后，跟随着一个百分号和工作序号（叫做 jobspec）。
 [2]+  Stopped                 node
 ~~~
 这里面 %jobnumber 就是2。
-<video controls="controls" preload="none" poster="../picture/cp-exampe.png">
-<source src="../picture/app.mp4" type="video/mp4">
-</video>
+[演示视频](../picture/app.mp4)
 
 
 
