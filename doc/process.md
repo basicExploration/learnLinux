@@ -179,7 +179,15 @@ fg 命令之后，跟随着一个百分号和工作序号（叫做 jobspec）。
 - bg
     将一个在后台暂停的命令，变成继续执行。如果后台中有多个命令，可以用bg %jobnumber将选中的命令调出，%jobnumber是通过jobs命令查到的后台正在执行的命令的序号(不是pid)
 
-<video src="../picture/app.mp4">
+> %jobnumber 就是那个[]中的数字
+
+~~~bash
+[2]+  Stopped                 node
+~~~
+这里面 %jobnumber 就是2。
+<video controls="controls" preload="none" poster="../picture/cp-exampe.png">
+<source src="../picture/app.mp4" type="video/mp4">
+</video>
 
 
 
