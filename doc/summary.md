@@ -13,6 +13,7 @@
 - [权限](./rights.md)
 - [进程](./process.md)
 - [shell环境](./shellEnvironment.md)
+- [进阶](./shellPlus.md)
 - [macos 下无法使用的命令](./basicOnlyLinux.md)
 ---
 ---
