@@ -12,6 +12,7 @@
 - [键盘快捷键](./keyBord.md)
 - [权限](./rights.md)
 - [进程](./process.md)
+- [shell环境](./shellEnvironment.md)
 - [macos 下无法使用的命令](./basicOnlyLinux.md)
 ---
 ---
