@@ -103,8 +103,41 @@ root               271   0.0  0.0  2496288    460   ??  Ss   31Aug17   0:04.17 /
 用法:
 
 `kill 参数 pid`
+### 参数：
 
+- 3	QUIT	退出
 
+- 11	SEGV	段错误。如果一个程序非法使用内存，就会发送这个信号。也就是说， 程序试图写入内存，而这个内存空间是不允许此程序写入的。
+
+- 20	TSTP	终端停止。当按下 Ctrl-z 组合键后，终端发送这个信号。不像 STOP 信号， TSTP 信号由目标进程接收，且可能被忽略。
+
+- 28	WINCH	改变窗口大小。当改变窗口大小时，系统会发送这个信号。 一些程序，像 top 和 less 程序会响应这个信号，按照新窗口的尺寸，刷新显示的内容。
+
+--- 
+- 1	HUP	挂起。
+
+- 2	INT	中断。实现和 Ctrl-c 一样的功能，由终端发送。通常，它会终止一个程序。
+
+- 9	KILL 把 KILL 信号看作杀手锏，当其它终止信号失败后，再使用它。
+
+- 15	TERM	终止。这是 kill 命令发送的**默认信号**。如果程序仍然“活着”，可以接受信号，那么 这个信号终止。
+
+- 18	CONT	继续。在停止一段时间后，进程恢复运行。
+
+- 19	STOP	停止。这个信号导致进程停止运行，而没有终止。像 KILL 信号，它不被 发送到目标进程，因此它不能被忽略。
+> 一般默认没有参数就OK了 如果实在不行杀不死，就使用 -9，要记得，-18是恢复这个进程，-19是停止，所以-18 -19是一对好基友。
+
+使用kill -l 可以看到完整的列表
+```bash
+1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL
+ 5) SIGTRAP	 6) SIGABRT	 7) SIGEMT	 8) SIGFPE
+ 9) SIGKILL	10) SIGBUS	11) SIGSEGV	12) SIGSYS
+13) SIGPIPE	14) SIGALRM	15) SIGTERM	16) SIGURG
+17) SIGSTOP	18) SIGTSTP	19) SIGCONT	20) SIGCHLD
+21) SIGTTIN	22) SIGTTOU	23) SIGIO	24) SIGXCPU
+25) SIGXFSZ	26) SIGVTALRM	27) SIGPROF	28) SIGWINCH
+29) SIGINFO	30) SIGUSR1	31) SIGUSR2
+```
 
 
 
