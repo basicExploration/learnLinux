@@ -14,4 +14,4 @@
 ---
 ---
 ---
-我想到这个地步你已经将shell掌握的差不多了，是时候去练练shell script了[shell练习](../../shell)
+我想到这个地步你已经将shell掌握的差不多了，是时候去练练[shell script](../shell-script/summary.md)了。
