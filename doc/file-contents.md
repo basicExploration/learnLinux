@@ -18,7 +18,7 @@
 
     > 通配符其实也就代称相当于css中的选择器
 
-    - 通配符的匹配关键符号：<br><br>![p](../picture/tong.png) 
+    - 通配符的匹配关键符号：<br><br>![p](../picture/tong.png)
 
     - 通配符的关键符号的一些具体用法：<br><br>![p](../picture/tong-1.png)
 
@@ -73,7 +73,7 @@
     - 硬连接和软连接(也叫符号连接)的命令
 
     - `ln file link`硬连接file是文件后面是原路径
-    
+
     - `ln -s item link`软连接
 
     - 硬连接有两个局限性：
@@ -95,7 +95,7 @@
 
 - 第二个很明显前后都是文件.jpg第一很明显是文件夹。
 
-- 测试gif:<br><br>![picture1](../picture/ln-1.gif)<br><br>![picture2](../picture/ln-2.gif) 
+- 测试gif:<br><br>![picture1](../picture/ln-1.gif)<br><br>![picture2](../picture/ln-2.gif)
 
 
 ## [目录](./summary.md)
