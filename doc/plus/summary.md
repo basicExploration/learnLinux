@@ -5,6 +5,7 @@
 - [包管理器](./package.md)
 - [储存](./keep.md)
 - [网络(这一章很重要)](./net.md)
+- [查找文件](./findFile.md)
 
 
 
