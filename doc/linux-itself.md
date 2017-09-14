@@ -1,3 +1,4 @@
+
 # 探究Linux本身的很多特性
 
 ## [目录](./summary.md)
@@ -23,23 +24,23 @@
     csh		hostname	mv		stty
     date		kill		pax		sync
     dd		ksh		ps		tcsh
-    thomasdeMacBook-Air:~ thomashuke$ 
+    thomasdeMacBook-Air:~ thomashuke$
 - `ls -l`长模式输出
 
     > 也就是说会显示一大堆的文件---显示全部的信息。
-    
+
 - `ls -lt`意思就是短选项l和短选项t同时作用这里就要说明了
 
     > linux中有短选项和长选项例如-就是短选项--version就是长选项，长选项的缩写就是短选项例如`--verision => -v`并且linux中短选项可以同时写`-lt`就是`-l -t`的缩写。
-    
+
 - ls常用命令集锦：
 
     ![pic](../picture/2017-9-4.png)
-    
+
     > 由图可以看出来长选项几乎都有可以对应的短选项，使用的时候要注意如果有短选项就使用短的就好，没有在使用长选项 （英语：opinions）
 
     - `ls -i`现实文件索引节点的信息。
-    
+
 ---
 ## file功能
 - file命令返回文件类型
