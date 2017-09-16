@@ -53,4 +53,32 @@ $ 尾部
 
 例如 ^zip zip$ 头部 zip 和尾部 zip
 ## 小知识
-[linux中自带的词典](../../picture/library.md)
+[linux中自带的词典](../../picture/libary.md)
+
+方法是：
+```bash
+touch libary.md
+
+cat /usr/share/dict/words >> libary.md
+
+```
+## `.`
+`.`的用法就是代指任意一个的字符。\*是代指一切东西，但是不能代替的是换行符`\n`
+
+当该字符紧跟在任何一个其他限制符
+\*,+,?，{n}，{n,}，{n,m}）后面时，匹配模式是非贪婪的。非贪婪模式尽可能少的匹配所搜索的字符串，而默认的贪婪模式则尽可能多的匹配所搜索的字符串。
+
+## 中括号表达式和字符类[abc]
+for example :
+```bash
+find -type d -name [apd]le \bin
+
+```
+意思就是寻找的是一个指定为目录，并且名字叫做ale或者是ple或者是dle的一个目录。
+
+## 否定的括号[^abc]
+for example
+```bash
+find -type f -and -name [^apple]le /bin
+```
+意思是在/bin目录下，我们要求这个find的寻找是 类型是文件 并且 名字是 开头不是apple的后面接上去是le的文件名。
