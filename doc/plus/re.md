@@ -52,3 +52,5 @@ wait4path
 $ 尾部
 
 例如 ^zip zip$ 头部 zip 和尾部 zip
+## 小知识
+[linux中自带的词典](../../picture/library.md)
