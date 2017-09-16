@@ -82,3 +82,11 @@ for example
 find -type f -and -name [^apple]le /bin
 ```
 意思是在/bin目录下，我们要求这个find的寻找是 类型是文件 并且 名字是 开头不是apple的后面接上去是le的文件名。
+
+## `*`
+这个也是代指任意，但是它不分贪婪不贪婪，就是它是很随意的，比如谁ao*,它的意思就是说它可以匹配aoooo也可以匹配ao
+## 注明所有的元符号的理论
+![p1](../../picture/re-1.png)
+![p1](../../picture/re-2.png)
+![p1](../../picture/re-3.png)
+![p1](../../picture/re-4.png)
