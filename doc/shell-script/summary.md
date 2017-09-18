@@ -4,6 +4,7 @@
 - [从上到下的模式](./tb.md)
 - [if](./if.md)
 - [跟用户交流](./from-key_bord.md)
+- [流程控制](./while.md)
 
 
 
