@@ -96,7 +96,7 @@ exit
 ###  测试字符串表达式
 
 |表达式|	如果下列条件为真则返回True
-|-|
+|-|-|
 |string|	string 不为 null。
 |-n string|	字符串 string 的长度大于零。
 |-z string|	字符串 string 的长度为零。
@@ -113,7 +113,7 @@ fi
 ##测试整数表达式
 
 |表达式|	如果为真
-|-|
+|-|-|
 |integer1 -eq integer2|	integer1 等于 integer2。
 |integer1 -ne integer2|	integer1 不等于 integer2。
 |integer1 -le integer2|	integer1 小于或等于 integer2。
