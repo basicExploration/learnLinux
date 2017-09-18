@@ -55,7 +55,7 @@ exit
 下面给大家全部的文件表达式的参数及其代表意思
 
 |表达式|	如果下列条件为真则返回True|
-|-|
+|-|-|
 |file1 -ef file2	|file1 和 file2 拥有相同的索引号（通过硬链接两个文件名指向相同的文件）。
 |file1 -nt file2	|file1新于 file2。
 |file1 -ot file2	|file1早于 file2。
