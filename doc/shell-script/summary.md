@@ -2,6 +2,7 @@
 - [编写shell 脚本的准备工作](./first-shellscript.md)
 - [启动一个项目](./start-shell.md)
 - [从上到下的模式](./tb.md)
+- [if](./if.md)
 
 
 
