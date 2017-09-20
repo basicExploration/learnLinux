@@ -9,6 +9,7 @@
 - [错误的排解](./error.md)
 - [case](./case.md)
 - [位置参数](./locate.md)
+- [for](./for.md)
 
 
 
