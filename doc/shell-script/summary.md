@@ -5,6 +5,7 @@
 - [if](./if.md)
 - [跟用户交流](./from-key_bord.md)
 - [流程控制](./while.md)
+- [while](./while.md)
 
 
 
