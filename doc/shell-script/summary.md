@@ -8,7 +8,7 @@
 - [while](./while.md)
 - [错误的排解](./error.md)
 - [case](./case.md)
-- [位置参数](./local.md)
+- [位置参数](./locate.md)
 
 
 
