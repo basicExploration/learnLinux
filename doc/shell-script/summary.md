@@ -6,6 +6,9 @@
 - [跟用户交流](./from-key_bord.md)
 - [流程控制](./while.md)
 - [while](./while.md)
+- [错误的排解](./error.md)
+- [case](./case.md)
+- [位置参数](./local.md)
 
 
 
