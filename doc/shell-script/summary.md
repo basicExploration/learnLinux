@@ -10,6 +10,9 @@
 - [case](./case.md)
 - [位置参数](./locate.md)
 - [for](./for.md)
+- [string && number](./string-number.md)
+- [array](./array.md)
+- [神奇的shell](./magic.md)
 
 
 
